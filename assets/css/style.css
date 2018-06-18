@@ -1,0 +1,29 @@
+.A {
+  background-color: yellow;
+  padding: 7%;
+  margin: 0.3%;
+}
+
+ .B {
+  margin: 0.6%;
+  background-color:rgb(0, 250, 167);
+  height: 27.7em;
+  width: 59em;
+  margin-bottom: 0.3%;
+}
+
+.C {
+  background-color:rgb(246, 85, 236);
+  height: 27.7em;
+  width: 21.8em;
+  margin: 0.6%;
+  margin-bottom: 0.3%;
+}
+
+/*Estos estilos cambiaran solo cuando mi pantalla tenga estas medidas*/
+@media (min-width: 426px) and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+    text-align: center;
+  }
+}
